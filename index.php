@@ -1,0 +1,597 @@
+<?php
+    $data = date('D');
+    $mes = date('M');
+    $dia = date('d');
+    $ano = date('Y');
+	
+	$horario= date('H:i:s');
+    
+    $semana = array(
+        'Sun' => 'domingo', 
+        'Mon' => 'segunda-feira',
+        'Tue' => 'terca-Feira',
+        'Wed' => 'quarta-Feira',
+        'Thu' => 'quinta-Feira',
+        'Fri' => 'sexta-Feira',
+        'Sat' => 'sábado'
+    );
+    
+    $mes_extenso = array(
+        'Jan' => 'janeiro',
+        'Feb' => 'fevereiro',
+        'Mar' => 'marco',
+        'Apr' => 'abril',
+        'May' => 'maio',
+        'Jun' => 'junho',
+        'Jul' => 'julho',
+        'Aug' => 'agosto',
+        'Nov' => 'novembro',
+        'Sep' => 'setembro',
+        'Oct' => 'outubro',
+        'Dec' => 'dezembro'
+    );
+    
+    $mensagem= "{$dia} de " . $mes_extenso["$mes"] . " de {$ano}, ".$semana["$data"]." às ".$horario;
+?>
+
+
+
+<!DOCTYPE html>
+<html dir="ltr" lang="pt-BR">
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="GLASNETWORK - GUSTAVO LIMA" />
+
+    <!-- Stylesheets
+    ============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <!--[if lt IE 9]>
+    	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <!-- External JavaScripts
+    ============================================= -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<script type="text/javascript" src="js/jquery.camera.js"></script>
+	<script type="text/javascript" src="js/jquery.elastic.js"></script>
+
+	<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+	<script type="text/javascript" src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+	<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
+
+	<!-- Document Title-->
+	
+	<SCRIPT LANGUAGE="JavaScript">   
+<!-- Disable   
+function reEnable(){   
+return true   
+}   
+
+//if IE4+   
+document.onselectstart=new Function ("return false")   
+document.oncontextmenu=new Function ("return false")   
+//if NS6   
+if (window.sidebar){   
+document.onmousedown=disableselect   
+document.onclick=reEnable   
+}   
+//-->   
+</script> 
+	
+    <!-- Document Title
+    ============================================= -->
+	<title>FazBem Corretora de Seguros</title>
+	
+		<style>
+
+		.revo-slider-emphasis-text {
+			font-size: 64px;
+			font-weight: 700;
+			letter-spacing: -1px;
+			font-family: 'Raleway', sans-serif;
+			padding: 15px 20px;
+			border-top: 2px solid #FFF;
+			border-bottom: 2px solid #FFF;
+		}
+
+		.revo-slider-desc-text {
+			font-size: 20px;
+			font-family: 'Lato', sans-serif;
+			width: 650px;
+			text-align: center;
+			line-height: 1.5;
+		}
+
+		.revo-slider-caps-text {
+			font-size: 16px;
+			font-weight: 400;
+			letter-spacing: 3px;
+			font-family: 'Raleway', sans-serif;
+		}
+
+	</style>
+
+</head>
+
+<body class="stretched">
+<!-- Top Bar
+        ============================================= -->
+        <div id="top-bar" class="hidden-xs">
+
+            <div class="container clearfix">
+
+                <div class="col_half nobottommargin">
+
+                    <p class="nobottommargin"><strong>Telefone Fixo:</strong> (22) 3323-8039 |<strong> Celular:</strong> (21) 96014-7038 |<strong> Celular:</strong> (22) 99278-3938 | <strong>Cidade:</strong> Rio das Ostras</p>
+
+                </div>
+
+            </div>
+
+        </div><!-- #top-bar end -->
+    <!-- Document Wrapper
+    ============================================= -->
+    <div id="wrapper" class="clearfix">
+
+        <!-- Header
+        ============================================= -->
+        <header id="header">
+
+            <div id="header-wrap">
+
+                <div class="container clearfix">
+
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+
+                    <!-- Logo
+                    ============================================= -->
+                    <div id="logo">
+                        <img src="images/logo@2x2.png" alt="Corretor de Seguros - Rio das Ostras"></a>
+						 
+                    </div><!-- #logo end -->
+
+                    <!-- Primary Navigation
+                    ============================================= -->
+                    <nav id="primary-menu" class="sub-title">
+
+                        <ul>
+                            <li class="current"><a href="index.html"><div>Inicio</div><span>Página inicial</span></a>
+                            </li>
+							<li class="mega-menu"><a href="contato.html"><div>Contato</div><span>Fale conosco</span></a>
+                            </li>
+                        </ul>
+                        <!-- Top Cart
+                        ============================================= -->
+                       <!-- <div id="top-cart">
+                            <a href="#" id="top-cart-trigger"><i class="icon-shopping-cart"></i><span>5</span></a>
+                            <div class="top-cart-content">
+                                <div class="top-cart-title">
+                                    <h4>Shopping Cart</h4>
+                                </div>
+                                <div class="top-cart-items">
+                                    <div class="top-cart-item clearfix">
+                                        <div class="top-cart-item-image">
+                                            <a href="#"><img src="images/shop/small/1.jpg" alt="Corretor de Seguros - Rio das Ostras" /></a>
+                                        </div>
+                                        <div class="top-cart-item-desc">
+                                            <a href="#">Blue Round-Neck Tshirt</a>
+                                            <span class="top-cart-item-price">$19.99</span>
+                                            <span class="top-cart-item-quantity">x 2</span>
+                                        </div>
+                                    </div>
+                                    <div class="top-cart-item clearfix">
+                                        <div class="top-cart-item-image">
+                                            <a href="#"><img src="images/shop/small/6.jpg" alt="Corretor de Seguros - Rio das Ostras" /></a>
+                                        </div>
+                                        <div class="top-cart-item-desc">
+                                            <a href="#">Light Blue Denim Dress</a>
+                                            <span class="top-cart-item-price">$24.99</span>
+                                            <span class="top-cart-item-quantity">x 3</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="top-cart-action clearfix">
+                                    <span class="fleft top-checkout-price">$114.95</span>
+                                    <button class="button button-3d button-small nomargin fright">View Cart</button>
+                                </div>
+                            </div>
+                        </div><!-- #top-cart end -->
+
+                        <!-- Top Search
+                        ============================================= -->
+                        <!--<div id="top-search">
+                            <a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
+                            <form action="search.html" method="get">
+                                <input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
+                            </form>
+                        </div><!-- #top-search end -->
+
+                    </nav><!-- #primary-menu end -->
+
+                </div>
+
+            </div>
+
+        </header><!-- #header end -->
+
+		<section id="slider" class="boxed-slider">
+
+            <div class="container clearfix">
+
+                <div class="fslider" data-easing="easeInQuad">
+                    <div class="flexslider">
+                        <div class="slider-wrap">
+                            <div class="slide" data-thumb="images/slider/boxed/thumbs/4.jpg">
+                                <a href="contato.html">
+                                    <img src="http://i.imgur.com/L8ua1hZ.jpg" alt="Corretor de Seguros - Rio das Ostras">
+                                </a>
+                            </div><div class="slide" data-thumb="images/slider/boxed/thumbs/4.jpg">
+                                <a href="contato.html">
+                                    <img src="http://i.imgur.com/Xim5yhM.jpg" alt="Corretor de Seguros - Rio das Ostras">
+                                </a>
+                            </div><div class="slide" data-thumb="images/slider/boxed/thumbs/4.jpg">
+                                <a href="contato.html">
+                                    <img src="http://i.imgur.com/zHNlEGl.jpg" alt="Corretor de Seguros - Rio das Ostras">
+                                </a>
+                            </div><div class="slide" data-thumb="images/slider/boxed/thumbs/4.jpg">
+                                <a href="contato.html">
+                                    <img src="http://i.imgur.com/pZovUs6.jpg" alt="Corretor de Seguros - Rio das Ostras">
+                                </a>
+                            </div><div class="slide" data-thumb="images/slider/boxed/thumbs/4.jpg">
+                                <a href="contato.html">
+                                    <img src="http://i.imgur.com/1wm9vDa.jpg" alt="Corretor de Seguros - Rio das Ostras">
+                                </a>
+                            </div>
+                            <div class="slide" data-thumb="images/slider/boxed/thumbs/4.jpg">
+                                <a href="contato.html">
+                                    <img src="http://i.imgur.com/wSUq2ep.jpg" alt="Corretor de Seguros - Rio das Ostras">
+                                </a>
+                            </div>
+                            <div class="slide" data-thumb="images/slider/boxed/thumbs/4.jpg">
+                                <a href="contato.html">
+                                    <img src="http://i.imgur.com/g3sa5zm.jpg" alt="Corretor de Seguros - Rio das Ostras">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+			<script>
+
+            jQuery(document).ready(function($) {
+
+                var ocSlider = $("#oc-slider");
+
+                ocSlider.owlCarousel({
+                    items: 1,
+                    nav: true,
+                    navText : ['<i class="icon-angle-left"></i>','<i class="icon-angle-right"></i>'],
+                    animateOut: 'slideOutDown',
+                    animateIn: 'zoomIn',
+                    smartSpeed: 2000,
+                    autoplay: true,
+                    loop: true
+                });
+
+            });
+
+            </script>
+
+            </div>
+        
+        </section>
+		
+        <!-- Content
+        ============================================= -->
+        <section id="content">
+		
+
+            <div class="content-wrap">
+                <div class="container clearfix">
+        <div class="style-msg alertmsg">
+            <center><div class="sb-msg"><i class="icon-thumbs-up"></i><strong>Seu seguro ficou muito caro?</strong> Entre em contato conosco, solicite sua cotação!</div></center>
+        </div>
+                    <div class="col_one_third nobottommargin">
+                        <div class="feature-box media-box">
+                            <div class="fbox-media">
+                                <img src="images/services/servico-3.jpg" alt="">
+                            </div>
+							<div class="fbox-desc">
+                                <center><h3>Para você</h3></center>
+                            </div>
+							<div class="accordion accordion-border clearfix nobottommargin">
+								<!---->
+                                <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Automóvel</div>
+                                <div class="acc_content clearfix" align="justify">O Seguro para seu Automóvel oferece guincho de 24 horas em todo país, roubo e furto, e colisões. Além de diversas coberturas e serviços exclusivos para que você possa ter tranquilidade, segurança e comodidade no seu dia a dia.</br></br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!---->
+                                <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Moto</div>
+                                <div class="acc_content clearfix" align="justify">Cobertura de guincho 24 horas, roubo e furto além de descontos e benefícios para quem é apaixonado pela vida em duas rodas.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!---->
+                                <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Embarcação</div>
+                                <div class="acc_content clearfix" align="justify">Seguro obrigatório em águas brasileiras além de contar com coberturas adicionais para os tripulantes e terceiros.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!----> 
+								<div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Residencial</div>
+                                <div class="acc_content clearfix" align="justify">Pode contar com coberturas para a sua casa, apartamento ou veraneio, desde incêndio, desmoronamento, subtração de bens e até aquela janela do vizinho que seu filho quebrou.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!----> 
+								<div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Vida</div>
+                                <div class="acc_content clearfix" align="justify">Mantenha o padrão de vida e a saúde financeira da sua família caso você venha a faltar. Com coberturas de Morte, Invalidez temporária ou permanente, lesões repetitivas, auxilio funeral e planos especiais para mulheres como segunda opinião médica e diagnóstico de câncer. Assim você mantém uma vida financeira segura para as pessoas que você ama.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!----> 
+								<div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Acidentes Pessoais</div>
+                                <div class="acc_content clearfix" align="justify">Não deixe que aquele acidente no futebol ou na academia prejudique sua vida financeira. Conte com um capital para imprevistos.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!----> 
+								<div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Viagem</div>
+                                <div class="acc_content clearfix" align="justify">Faça uma viagem tranquila, e conte com coberturas como extravio de bagagem, despesas médicas hospitalares e translado. Além de ser obrigatório para viagens para diversos países da Europa.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!----> 
+								<div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Celular / Note / Câmeras</div>
+                                <div class="acc_content clearfix" align="justify">Proteção para seu notebook, tablets, smartphones, filmadoras e câmeras fotográficas. Além de contar com coberturas contra roubo e danos elétricos entre outros.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!---->
+								<div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Fiança Locatícia</div>
+                                <div class="acc_content clearfix" align="justify">Melhor opção para quem não tem Fiador, além de coberturas como danos ao imóvel, pintura e pagamento do aluguel trazendo comodidade para Proprietários e Imobiliárias.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!---->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col_one_third nobottommargin">
+                        <div class="feature-box media-box">
+                            <div class="fbox-media">
+                                <img src="images/services/servico-1.jpg" alt="">
+                            </div>
+                            <div class="fbox-desc">
+                                <center><h3>Para sua empresa</h3></center>
+                            </div>
+							<div class="accordion accordion-border clearfix nobottommargin">
+								<!---->
+                                <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Vida Empresarial</div>
+                                <div class="acc_content clearfix" align="justify">Seguro de vida para você e seus funcionários, forma de amparar seus funcionários e familiares no momento em que mais precisam. Além de contar com o seguro que se enquadre em sua convenção coletiva.</br></br></br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!---->
+                                <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Odontológico</div>
+                                <div class="acc_content clearfix" align="justify">Com apenas 4 vidas (2 sócios e 2 dependentes por exemplo) já é possível contratar um plano odontológico para você, seus funcionários e familiares. Além de contar com o melhor custo benefício e ainda ter uma vasta rede credenciada.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!---->
+                                <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Responsabilidade Civil</div>
+                                <div class="acc_content clearfix" align="justify">Com o intuito de manter a saúde financeira de sua empresa. O Seguro RC tem como finalidade garantir o reembolso de quantias indenizatórias quando sua empresa for responsável civilmente por danos involuntários materiais ou corporais causados a terceiros.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!----> 
+								<div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Empresarial (Incêndio e Roubo)</div>
+                                <div class="acc_content clearfix" align="justify">Sua empresa é sua maior fonte de renda. Garanta coberturas contra incêndio, roubo, arrombamentos, materiais estocados, danos elétricos, perda de aluguel, lucro cessantes entre outros.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!----> 
+								<div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Frotas (Auto e Caminhões)</div>
+                                <div class="acc_content clearfix" align="justify">Sua frota protegida e com o melhor custo benefício contra colisão, incêndio, roubo e furto, além de coberturas extras como carro reserva, responsabilidade civil para terceiros, acidentes pessoais por passageiro entre outras.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!----> 
+								<div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Transporte de Cargas</div>
+                                <div class="acc_content clearfix" align="justify">Seguro obrigatório tanto para o dono da carga quanto para o transportador. Conte com coberturas contra roubo, acidentes com a carga envolvida entre outros. Coberturas nacionais e internacionais com simplicidade tanto nas averbações quanto nos transportes avulsos.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!----> 
+								<div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Eventos</div>
+                                <div class="acc_content clearfix" align="justify">O noivo caiu? Buffet estragou? O artista não apareceu? Garanta tranquilidade para os seus eventos com coberturas de responsabilidade civil para sua empresa e acidentes pessoais para os seus convidados.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!----> 
+								<div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Garantias Contratuais</div>
+                                <div class="acc_content clearfix" align="justify">Seguro que garante o cumprimento do contrato firmado entre empresas. Atende diversas modalidades, entre elas fornecedores, empreiteiras e licitações.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!---->
+								<div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Máquinas e Equipamentos</div>
+                                <div class="acc_content clearfix" align="justify">Há equipamentos em sua empresa que não pode parar. Garanta cobertura de danos elétricos, roubo entre outros.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!---->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col_one_third nobottommargin col_last">
+                        <div class="feature-box media-box">
+                            <div class="fbox-media">
+                                <img src="images/services/servico-2.jpg" alt="">
+                            </div>
+                            <div class="fbox-desc">
+                                <center><h3>Planejamento Financeiro</h3></center>
+                            </div>
+							<div class="accordion accordion-border clearfix nobottommargin">
+								<!---->
+                                <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Previdência Privada</div>
+                                <div class="acc_content clearfix" align="justify">Na idade da aposentadoria seus custos aumentam com plano de saúde, remédios e com a família e sua renda diminui. Faça uma previdência privada para viver essa fase da vida da melhor forma possível. Conte com diversos fundos de investimentos onde seu dinheiro rende mais que na poupança.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!---->
+                                <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Previdência Infantil</div>
+                                <div class="acc_content clearfix" align="justify">Já pensou se você tivesse começado a vida adulta com uma bolada? Para estudar, montar seu negócio, casar? Como estaria sua vida hoje? Dê o melhor presente para o seu filho: Um futuro tranquilo para ele seguir seus sonhos. Com contribuições mínimas de R$ 100,00 você garante um futuro melhor para seus filhos.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!---->
+                                <div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Consórcio Casa</div>
+                                <div class="acc_content clearfix" align="justify">Fuja dos juros. Economize com o consórcio. Por não ter juros, com apenas taxas de administração a compra do seu imóvel fica bem mais em conta e programada.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!----> 
+								<div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Consórcio Carro</div>
+                                <div class="acc_content clearfix" align="justify">A forma mais em conta de se programar a compra de seu carro novo. Com diversas formas de lances e taxas mais atrativas que os juros de financiamento.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!----> 
+								<div class="acctitle"><i class="acc-closed icon-ok-circle"></i><i class="acc-open icon-remove-circle"></i>Financiamento de Automóvel</div>
+                                <div class="acc_content clearfix" align="justify">Precisando rápido de um financiamento de automóvel? Temos as taxas de juros menores do mercado.</br><center><a href="contato.html" class="button button-3d button-rounded button-amber"><i class="icon-ok"></i>Solicitar cotação</a></center></div>
+								<!----> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
+                </div>
+            </div>
+
+        </section><!-- #content end -->
+
+        <!-- Footer
+        ============================================= -->
+        <footer id="footer">
+
+            <div class="container">
+
+                <!-- Footer Widgets
+                ============================================= -->
+                <div class="footer-widgets-wrap clearfix">
+
+                    <div class="col_two_third">
+
+                        <div class="col_one_third">
+
+                            <div class="widget clearfix">
+
+                                <div style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+                                    <h3>Telefones:</h3> 
+									<li>55 (22) 3323-8039</li>
+									<li>55 (21) 96014-7038</li>
+									<li>55 (21) 97657-0166</li>
+									<li>55 (22) 99278-3938</li>
+									<li>55 (22) 99787-5692</li><br></br>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+						<h3>Ranking de seguros:</h3>
+                        <div class="col-md-3 col-sm-6 bottommargin">
+                            <ul class="skills">
+                                <li data-percent="100">
+                                    <span>Casas</span>
+                                    <div class="progress">
+                                        <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="30" data-refresh-interval="30" data-speed="1000"></span>%</div></div>
+                                    </div>
+                                </li>
+                                <li data-percent="90">
+                                    <span>Automóveis</span>
+                                    <div class="progress">
+                                        <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="25" data-refresh-interval="30" data-speed="1000"></span>%</div></div>
+                                    </div>
+                                </li>
+                                <li data-percent="80">
+                                    <span>Pessoal</span>
+                                    <div class="progress">
+                                        <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="20" data-refresh-interval="30" data-speed="1000"></span>%</div></div>
+                                    </div>
+                                </li>
+                                <li data-percent="70">
+                                    <span>Empresas</span>
+                                    <div class="progress">
+                                        <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="15" data-refresh-interval="30" data-speed="1000"></span>%</div></div>
+                                    </div>
+                                </li>
+                                <li data-percent="60">
+                                    <span>Familiar</span>
+                                    <div class="progress">
+                                        <div class="progress-percent"><div class="counter counter-inherit counter-instant"><span data-from="0" data-to="10" data-refresh-interval="30" data-speed="1000"></span>%</div></div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col_one_third col_last">
+
+                        <!--<div class="widget clearfix" style="margin-bottom: -20px;">
+
+                           <div class="row">
+
+                                <div class="col-md-6 bottommargin-sm">
+                                    <div class="counter counter-small"><span data-from="50" data-to="15065421" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
+                                    <h5 class="nobottommargin">Total Downloads</h5>
+                                </div>
+
+                                <div class="col-md-6 bottommargin-sm">
+                                    <div class="counter counter-small"><span data-from="100" data-to="18465" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
+                                    <h5 class="nobottommargin">Clients</h5>
+                                </div>
+
+                            </div>
+
+                        </div>-->
+
+                        <div class="widget subscribe-widget clearfix">
+                            <h5><strong>Inscreva-se</strong> e fique por dentro de todas as nossas atualizações:</h5>
+                            <div id="widget-subscribe-form-result" data-notify-type="success" data-notify-msg=""></div>
+                            <form id="widget-subscribe-form" action="include/subscribe.php" role="form" method="post" class="nobottommargin">
+                                <div class="input-group divcenter">
+                                    <span class="input-group-addon"><i class="icon-email2"></i></span>
+                                    <input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Digite seu e-mail">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-success" type="submit">Enviar</button>
+                                    </span>
+                                </div>
+                            </form>
+                            <script type="text/javascript">
+                                $("#widget-subscribe-form").validate({
+                                    submitHandler: function(form) {
+                                        $(form).find('.input-group-addon').find('.icon-email2').removeClass('icon-email2').addClass('icon-line-loader icon-spin');
+                                        $(form).ajaxSubmit({
+                                            target: '#widget-subscribe-form-result',
+                                            success: function() {
+                                                $(form).find('.input-group-addon').find('.icon-line-loader').removeClass('icon-line-loader icon-spin').addClass('icon-email2');
+                                                $('#widget-subscribe-form').find('.form-control').val('');
+                                                $('#widget-subscribe-form-result').attr('data-notify-msg', $('#widget-subscribe-form-result').html()).html('');
+                                                SEMICOLON.widget.notifications($('#widget-subscribe-form-result'));
+                                            }
+                                        });
+                                    }
+                                });
+                            </script>
+                        </div>
+
+                        <center><img src="images/logo@2x2.png" alt="FazBemLogo"></a></center>
+
+                    </div>
+
+                </div><!-- .footer-widgets-wrap end -->
+
+            </div>
+
+            <!-- Copyrights
+            ============================================= -->
+			
+            <div id="copyrights">
+
+                <div class="container clearfix">
+
+                    <div class="col_half">
+                    <p>Corretora de Seguros - Rio das Ostras</p>
+                        Copyright &copy; 2016 Todos Direitos Reservados FazBem Corretora Inc.<br>
+                        <div class="copyright-links"><a href="#">Termos de uso</a> / <a href="#">Política de privacidade</a></div>
+                    </div>
+
+                    <div class="col_half col_last tright">
+                        <div class="fright clearfix">
+
+
+                        <div class="clear"></div>
+<a href="https://facebook.com/fazbemcorretora" class="social-icon si-dark si-large si-facebook" data-toggle="tooltip" data-placement="left" title="Facebook">
+<i class="icon-facebook"></i>
+<i class="icon-facebook"></i>
+</a>
+                        <i class="icon-envelope2"></i> fazbemcorretora@fazbemcorretora.com.br <span class="middot">&middot;</span> <i class="icon-headphones"></i> 55 22 3323-8039
+                    </div>
+
+                </div>
+
+            </div><!-- #copyrights end -->
+
+        </footer><!-- #footer end -->
+
+    </div><!-- #wrapper end -->
+
+    <!-- Go To Top
+    ============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- Footer Scripts
+    ============================================= -->
+    <script type="text/javascript" src="js/functions.js"></script>
+
+</body>
+</html>
